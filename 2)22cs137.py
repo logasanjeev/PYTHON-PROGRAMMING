@@ -1,0 +1,6 @@
+r= int(input("Enter the radius of the cylinder:"))
+h= int(input("Enter the height of the cylinder:"))
+v= (3.14)*(r**2)*(h)
+s= ((2)*(3.14)*(r)*(h))+((3.14)*(r**2)*2)
+print("Volume of cylinder:",v)
+print("Surface area of cylinder::",s) 
